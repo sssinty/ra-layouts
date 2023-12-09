@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.product-card {
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img {
+  width: 208px;
+  height: 208px;
+}
+
+.product-item-list {
+  display: flex;
+  height: 100%;
+}
+
+.img-list {
+  width: 160px;
+  height: 150px;
+}
